@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #8a8a8a;
+	padding: 10px 0px;
+}
+
+img {
+	border: 1px solid #8a8a8a;
+	padding: 5px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+button {
+	border-radius: 0;
+}
+
+.image-pill {
+	display: flex;
+	margin: 10px 0px;
+}
+
+
+.quantity {
+	display: flex;
+	padding: 15px 0px;
+	align-items: center;
+}
+
+.quantity p {
+	margin-right: 15px;
+}
+
+.quantity input {
+	width: 100%;
+	padding: 8px 0px;
+}
+
+.buy {
+	text-align: center;
+	background-color: #2199e8;
+	color: #fff;
+	width: 100%;
+	padding: 15px 0px;
+	margin: 15px 0px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.submit {
+	background-color: #2199e8;
+	color: #fff;
+	padding: 10px 15px;
+	margin: 15px 0px;
+}
+
+.btn-social {
+	text-align: center;
+	background-color: #8a8a8a;
+	color: #fff;
+	width: 100%;
+	padding: 15px 0px;
+}
+
+.revi {
+	margin-top: 10px;
+}
+
+.revi h3 {
+	font-size: 18px; 
+}
+
+.revi textarea {
+	border-radius: 0;
+	width: 100%;
+	padding: 5px 0px;
+}
+
+.last-ul {
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+}
+
+.last-ul li:first-child {
+	color: #000;
+	font-size: 20px;
+}
+
+.second-nav {
+	display: flex;
+	margin: 10px 0px;
+}
+
+.section-one {
+	padding-bottom: 15px;
+}
+
+.section-two {
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+.images-row {
+	margin: 15px 0px;
+}
+
+.second-nav li:last-child {
+	color: #000;
+}
+
+.second-nav li:nth-child(3) {
+	color: #8a8a8a;
+}
+
+.main-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left-nav ul{
+	display: flex;
+	align-items: center;
+}
+
+ul li {
+	list-style: none;
+	margin-right: 15px;
+	color: #2199e8;
+}
+
+.left-nav ul li:first-child {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.search {
+	color: #fff;
+	background-color: #2199e8;
+	padding: 10px 15px;
+}
+
+.inpu-search {
+	padding: 7px;
+	border: 1px solid #ccc;
+}
+
+@media(max-width: 650px) {
+	.mobile {
+		margin-bottom: 25px;
+	}
+
+	.image-pill {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+
+	.img-place {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+
+	.review-text p, .review-text h4 {
+		text-align: left;
+	}
+
+	.main-nav {
+		flex-direction: column;
+	}
+
+	.second-nav li {
+		font-size: 14px;
+		margin: 0;
+	}
+}
+
+
+
+
